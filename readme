@@ -1,0 +1,11 @@
+Para crear la aplicación de React
+* Primero instalar React App: npm install -g create-react-app
+* Crear la aplicaicón: create-react-app -nombre del proyecto-
+
+Para cloanr una rama de un proyecto en GitHub
+* git clone https://github.com/Sparragus/platzi-badges.git --branch 1.ReactDOM.render
+
+Para correr el proyecto: npm start
+
+Para utilizar Bootstrap:
+* npm install bootstrap
