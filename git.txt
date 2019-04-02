@@ -1,0 +1,13 @@
+* Para registrar un repositorio remoto: git remote add origin [https del repositorio]
+* Para traer los cambios del remoto: git pull origin master
+* para subir los cambios del remoto: git push origin master
+* PAra subir los tags: git push origin master --tags
+
+* Para quitar un archivo del tracking y no borrarlo del working directory: git rm --cached prueba.txt
+	Luego hay que incluirlo en el gitignore y realizar un commit
+
+* Para descartar los cambios que se han realizado en el "working directory" y que no se han pasado a commit: git checkout .
+* Para retornar un archivo del stage al working: git reset [nombre archivo]
+
+* Si luego de crear el repositorio en Git no se puede realizar el pull correspondiente, intentar con:
+git pull origin master --allow-unrelated-histories
