@@ -9,3 +9,6 @@ Para correr el proyecto: npm start
 
 Para utilizar Bootstrap:
 * npm install bootstrap
+
+Para instalar React Router:
+* npm install react-router-dom
